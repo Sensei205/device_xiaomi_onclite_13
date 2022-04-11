@@ -22,6 +22,7 @@ TARGET_BOOT_ANIMATION_RES := 720
 BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := Aditya&Ganesh
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := blaze_onclite
