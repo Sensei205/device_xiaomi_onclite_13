@@ -75,6 +75,11 @@ PRODUCT_COPY_FILES += \
 # Product broken
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
+# Libs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/lib/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstdc++.so \
+    $(LOCAL_PATH)/configs/lib64/libstdc++.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstdc++.so
+
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
